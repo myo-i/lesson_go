@@ -1,11 +1,11 @@
 package main
 
 import (
-	"lesson_go/hello"
+	"lesson_go/imports"
 )
 
 func main() {
-	hello.Hello()
+	//hello.Hello()
 
-	//imports.Imports()
+	imports.Imports()
 }
