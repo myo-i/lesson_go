@@ -1,11 +1,13 @@
 package main
 
-import "lesson_go/variable"
+import _const "lesson_go/const"
 
 func main() {
 	//hello.Hello()
 
 	//imports.Imports()
 
-	variable.Variable()
+	//variable.Variable()
+
+	_const.Const()
 }
