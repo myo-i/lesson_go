@@ -1,6 +1,6 @@
 package main
 
-import "lesson_go/numeric"
+import "lesson_go/string"
 
 func main() {
 	//hello.Hello()
@@ -11,5 +11,7 @@ func main() {
 
 	//_const.Const()
 
-	numeric.Numeric()
+	//numeric.Numeric()
+
+	string.String()
 }
