@@ -1,6 +1,8 @@
 package main
 
-import "lesson_go/string"
+import (
+	"lesson_go/boolean"
+)
 
 func main() {
 	//hello.Hello()
@@ -13,5 +15,5 @@ func main() {
 
 	//numeric.Numeric()
 
-	string.String()
+	boolean.Boolean()
 }
