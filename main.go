@@ -1,7 +1,7 @@
 package main
 
 import (
-	_func "lesson_go/func"
+	"lesson_go/closure"
 )
 
 func main() {
@@ -29,5 +29,7 @@ func main() {
 
 	//_byte.Byte()
 
-	_func.Func()
+	//_func.Func()
+
+	closure.Closure()
 }
