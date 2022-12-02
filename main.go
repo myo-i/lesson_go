@@ -1,6 +1,6 @@
 package main
 
-import _const "lesson_go/const"
+import "lesson_go/numeric"
 
 func main() {
 	//hello.Hello()
@@ -9,5 +9,7 @@ func main() {
 
 	//variable.Variable()
 
-	_const.Const()
+	//_const.Const()
+
+	numeric.Numeric()
 }
