@@ -1,7 +1,7 @@
 package main
 
 import (
-	"lesson_go/slice_make_cap"
+	_map "lesson_go/map"
 )
 
 func main() {
@@ -22,6 +22,8 @@ func main() {
 	//array.Array()
 
 	//slice.Slice()
-	
-	slice_make_cap.MakeCap()
+
+	//slice_make_cap.MakeCap()
+
+	_map.Map()
 }
