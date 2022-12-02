@@ -1,7 +1,7 @@
 package main
 
 import (
-	"lesson_go/array"
+	"lesson_go/slice"
 )
 
 func main() {
@@ -18,6 +18,8 @@ func main() {
 	//boolean.Boolean()
 
 	//cast.Cast()
-	
-	array.Array()
+
+	//array.Array()
+
+	slice.Slice()
 }
