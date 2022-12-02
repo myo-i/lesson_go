@@ -1,7 +1,7 @@
 package main
 
 import (
-	_map "lesson_go/map"
+	_byte "lesson_go/byte"
 )
 
 func main() {
@@ -25,5 +25,7 @@ func main() {
 
 	//slice_make_cap.MakeCap()
 
-	_map.Map()
+	//_map.Map()
+
+	_byte.Byte()
 }
