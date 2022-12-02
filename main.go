@@ -1,7 +1,7 @@
 package main
 
 import (
-	_byte "lesson_go/byte"
+	_func "lesson_go/func"
 )
 
 func main() {
@@ -27,5 +27,7 @@ func main() {
 
 	//_map.Map()
 
-	_byte.Byte()
+	//_byte.Byte()
+
+	_func.Func()
 }
