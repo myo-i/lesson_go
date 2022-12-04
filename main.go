@@ -2,6 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
+	_if "lesson_go/statement/if"
 )
 
 func definition() {
@@ -22,6 +23,11 @@ func definition() {
 	var_parameter.Parameter()
 }
 
+func statement() {
+	_if.If()
+}
+
 func main() {
-	definition()
+	//definition()
+	statement()
 }
