@@ -2,7 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
-	_for "lesson_go/statement/for"
+	_range "lesson_go/statement/range"
 )
 
 func definition() {
@@ -26,7 +26,9 @@ func definition() {
 func statement() {
 	//_if.If()
 
-	_for.For()
+	//_for.For()
+	
+	_range.Range()
 }
 
 func main() {
