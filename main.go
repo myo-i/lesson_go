@@ -2,7 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
-	_defer "lesson_go/statement/defer"
+	"lesson_go/statement/log"
 )
 
 func definition() {
@@ -32,7 +32,9 @@ func statement() {
 
 	//_switch.Switch()
 
-	_defer.Defer()
+	//_defer.Defer()
+
+	log.Logging()
 
 }
 
