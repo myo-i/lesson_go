@@ -2,7 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
-	_switch "lesson_go/statement/switch"
+	_defer "lesson_go/statement/defer"
 )
 
 func definition() {
@@ -30,7 +30,9 @@ func statement() {
 
 	//_range.Range()
 
-	_switch.Switch()
+	//_switch.Switch()
+
+	_defer.Defer()
 
 }
 
