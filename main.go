@@ -2,7 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
-	"lesson_go/statement/log"
+	"lesson_go/statement/error"
 )
 
 func definition() {
@@ -34,7 +34,9 @@ func statement() {
 
 	//_defer.Defer()
 
-	log.Logging()
+	//log.Logging()
+
+	error.Error()
 
 }
 
