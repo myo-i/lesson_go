@@ -2,7 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
-	"lesson_go/statement/error"
+	"lesson_go/statement/panic_and_recover"
 )
 
 func definition() {
@@ -36,7 +36,9 @@ func statement() {
 
 	//log.Logging()
 
-	error.Error()
+	//error.Error()
+
+	panic_and_recover.PanicAneRecover()
 
 }
 
