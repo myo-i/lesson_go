@@ -2,7 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
-	_range "lesson_go/statement/range"
+	_switch "lesson_go/statement/switch"
 )
 
 func definition() {
@@ -27,8 +27,11 @@ func statement() {
 	//_if.If()
 
 	//_for.For()
-	
-	_range.Range()
+
+	//_range.Range()
+
+	_switch.Switch()
+
 }
 
 func main() {
