@@ -47,7 +47,8 @@ func statement() {
 
 func pointer() {
 	//_pointer.Pointer()
-	_pointer.NewAndMake()
+	//_pointer.NewAndMake()
+	_pointer.Struct()
 }
 
 func main() {
