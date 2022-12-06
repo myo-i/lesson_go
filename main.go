@@ -2,6 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
+	"lesson_go/pointer"
 	"lesson_go/statement/exercises"
 )
 
@@ -44,7 +45,12 @@ func statement() {
 
 }
 
+func pointer() {
+	_pointer.Pointer()
+}
+
 func main() {
 	//definition()
-	statement()
+	//statement()
+	pointer()
 }
