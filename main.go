@@ -53,7 +53,9 @@ func pointer() {
 }
 
 func structs() {
-	_structs.PointerValue()
+	//_structs.PointerValue()
+
+	_structs.NonStruct()
 }
 
 func main() {
