@@ -3,27 +3,35 @@ package _structs
 import "fmt"
 
 type Vertex struct {
-	X, Y int
+	x, y int
 }
 
 // / Area こいつはメソッド（v.Area()で呼び出せる）
 func (v Vertex) Area() int {
-	return v.X * v.Y
+	return v.x * v.y
 }
 
 func (v *Vertex) Scale(i int) {
-	v.X = v.X * i
-	v.Y = v.Y * i
+	v.x = v.x * i
+	v.y = v.y * i
 }
 
 // / Area こいつは関数
-func Area(v Vertex) int {
-	return v.X * v.Y
+//func Area(v Vertex) int {
+//	return v.x * v.y
+//}
+
+/// New コンストラクタ
+func New(x, y int) *Vertex {
+	return &Vertex{x, y}
 }
 
 func PointerValue() {
-	v := Vertex{3, 4}
+	//v := Vertex{3, 4}
 	//fmt.Println(Area(v))
+
+	// コンストラクタパターンは一種のデザインパターン
+	v := New(3, 4)
 
 	// vertex.Areaとしているのでコードしてわかりやすく、インテリセンスもしてくれて利用できる物がわかりやすい
 	v.Scale(10)
