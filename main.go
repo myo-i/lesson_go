@@ -4,6 +4,7 @@ import (
 	"lesson_go/definition/var_parameter"
 	"lesson_go/pointer"
 	"lesson_go/statement/exercises"
+	"lesson_go/structs"
 )
 
 func definition() {
@@ -51,8 +52,13 @@ func pointer() {
 	_pointer.Struct()
 }
 
+func structs() {
+	_structs.PointerValue()
+}
+
 func main() {
 	//definition()
 	//statement()
-	pointer()
+	//pointer()
+	structs()
 }
