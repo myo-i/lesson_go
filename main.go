@@ -54,8 +54,9 @@ func pointer() {
 
 func structs() {
 	//_structs.PointerValue()
-
-	_structs.NonStruct()
+	//_structs.NonStruct()
+	//_structs.Interface()
+	_structs.TypeAssertion()
 }
 
 func main() {
