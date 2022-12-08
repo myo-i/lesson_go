@@ -48,7 +48,8 @@ func structs() {
 	//_structs.NonStruct()
 	//_structs.Interface()
 	//_structs.TypeAssertion()
-	_structs.Stringer()
+	//_structs.Stringer()
+	_structs.CustomError()
 }
 
 func main() {
