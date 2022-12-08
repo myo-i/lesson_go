@@ -27,23 +27,14 @@ func definition() {
 
 func statement() {
 	//_if.If()
-
 	//_for.For()
-
 	//_range.Range()
-
 	//_switch.Switch()
-
 	//_defer.Defer()
-
 	//log.Logging()
-
 	//error.Error()
-
 	//panic_and_recover.PanicAneRecover()
-
 	exercises.Exercise()
-
 }
 
 func pointer() {
@@ -56,7 +47,8 @@ func structs() {
 	//_structs.PointerValue()
 	//_structs.NonStruct()
 	//_structs.Interface()
-	_structs.TypeAssertion()
+	//_structs.TypeAssertion()
+	_structs.Stringer()
 }
 
 func main() {
