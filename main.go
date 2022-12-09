@@ -58,7 +58,8 @@ func goroutine() {
 	//_goroutine.Goroutine()
 	//_goroutine.Channel()
 	//_goroutine.Buffer()
-	_goroutine.ChRangeClose()
+	//_goroutine.ChRangeClose()
+	_goroutine.ProduceConsume()
 }
 
 func main() {
