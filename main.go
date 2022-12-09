@@ -60,7 +60,8 @@ func goroutine() {
 	//_goroutine.Buffer()
 	//_goroutine.ChRangeClose()
 	//_goroutine.ProduceConsume()
-	_goroutine.FanInFanOut()
+	//_goroutine.FanInFanOut()
+	_goroutine.ChannelSelect()
 }
 
 func main() {
