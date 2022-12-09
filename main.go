@@ -56,7 +56,8 @@ func structs() {
 
 func goroutine() {
 	//_goroutine.Goroutine()
-	_goroutine.Channel()
+	//_goroutine.Channel()
+	_goroutine.Buffer()
 }
 
 func main() {
