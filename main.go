@@ -49,7 +49,8 @@ func structs() {
 	//_structs.Interface()
 	//_structs.TypeAssertion()
 	//_structs.Stringer()
-	_structs.CustomError()
+	//_structs.CustomError()
+	_structs.Exercise()
 }
 
 func main() {
