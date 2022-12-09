@@ -2,6 +2,7 @@ package main
 
 import (
 	"lesson_go/definition/var_parameter"
+	"lesson_go/goroutine"
 	"lesson_go/pointer"
 	"lesson_go/statement/exercises"
 	"lesson_go/structs"
@@ -53,9 +54,14 @@ func structs() {
 	_structs.Exercise()
 }
 
+func goroutine() {
+	_goroutine.Goroutine()
+}
+
 func main() {
 	//definition()
 	//statement()
 	//pointer()
-	structs()
+	//structs()
+	goroutine()
 }
