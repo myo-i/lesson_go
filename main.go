@@ -63,7 +63,8 @@ func goroutine() {
 	//_goroutine.FanInFanOut()
 	//_goroutine.ChannelSelect()
 	//_goroutine.DefaultBreak()
-	_goroutine.SyncMutex()
+	//_goroutine.SyncMutex()
+	_goroutine.Exercise()
 }
 
 func main() {
