@@ -80,7 +80,8 @@ func packages() {
 	mylib.Packages()
 }
 func stdpackage() {
-	_stdpackage.Time()
+	//_stdpackage.Time()
+	_stdpackage.Regex()
 }
 
 func main() {
