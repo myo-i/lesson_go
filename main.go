@@ -81,7 +81,8 @@ func packages() {
 }
 func stdpackage() {
 	//_stdpackage.Time()
-	_stdpackage.Regex()
+	//_stdpackage.Regex()
+	_stdpackage.Sort()
 }
 
 func main() {
