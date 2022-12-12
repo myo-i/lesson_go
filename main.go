@@ -74,6 +74,10 @@ func packages() {
 	s := []int{1, 2, 3, 4, 5}
 	fmt.Println(mylib.Average(s))
 	mylibsub.Hello()
+
+	fmt.Println(mylibsub.Public)
+	//fmt.Println(mylibsub.private) // 小文字はエクスポートできない
+
 }
 
 func main() {
