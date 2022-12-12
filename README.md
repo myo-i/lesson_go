@@ -14,3 +14,6 @@ https://onsi.github.io/gomega/
 ## gofmt
 gofmt [対象のファイル名] でコードのフォーマットを表示  
 gofmt -w [対象のファイル名] でフォーマットを適用
+
+## パッケージの検索
+https://pkg.go.dev/
