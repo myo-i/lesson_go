@@ -3,6 +3,7 @@ package main
 import (
 	"lesson_go/definition/var_parameter"
 	"lesson_go/goroutine"
+	"lesson_go/mylib"
 	"lesson_go/pointer"
 	"lesson_go/statement/exercises"
 	"lesson_go/structs"
@@ -67,10 +68,23 @@ func goroutine() {
 	_goroutine.Exercise()
 }
 
+func packages() {
+	//s := []int{1, 2, 3, 4, 5}
+	//fmt.Println(mylib.Average(s))
+	//mylibsub.Hello()
+	//
+	//fmt.Println(mylibsub.Public)
+	//fmt.Println(mylibsub.private) // 小文字はエクスポートできない
+
+	mylib.Packages()
+
+}
+
 func main() {
 	//definition()
 	//statement()
 	//pointer()
 	//structs()
-	goroutine()
+	//goroutine()
+	packages()
 }
