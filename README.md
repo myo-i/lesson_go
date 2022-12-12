@@ -6,5 +6,7 @@ goは1つのディレクトリに1つのパッケージしか存在できない�
 
 ## GO testing
 Ginkgo
-goのテスティングフレームワーク
 https://pkg.go.dev/github.com/onsi/ginkgo
+
+GOMEGA
+https://onsi.github.io/gomega/
