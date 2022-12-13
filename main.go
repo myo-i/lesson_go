@@ -90,7 +90,8 @@ func stdpackage() {
 }
 
 func network() {
-	_network.Http()
+	//_network.Http()
+	_network.JsonUnmarshalMarshal()
 }
 
 func main() {
