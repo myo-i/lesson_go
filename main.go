@@ -4,6 +4,7 @@ import (
 	"lesson_go/definition/var_parameter"
 	"lesson_go/goroutine"
 	"lesson_go/mylib"
+	_network "lesson_go/network"
 	"lesson_go/pointer"
 	"lesson_go/statement/exercises"
 	"lesson_go/stdpackage"
@@ -88,6 +89,10 @@ func stdpackage() {
 	_stdpackage.Ioutil()
 }
 
+func network() {
+	_network.Http()
+}
+
 func main() {
 	//definition()
 	//statement()
@@ -95,5 +100,6 @@ func main() {
 	//structs()
 	//goroutine()
 	//packages()
-	stdpackage()
+	//stdpackage()
+	network()
 }
