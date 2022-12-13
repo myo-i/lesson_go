@@ -84,7 +84,8 @@ func stdpackage() {
 	//_stdpackage.Regex()
 	//_stdpackage.Sort()
 	//_stdpackage.Iota()
-	_stdpackage.Context()
+	//_stdpackage.Context()
+	_stdpackage.Ioutil()
 }
 
 func main() {
