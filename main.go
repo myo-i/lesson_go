@@ -6,6 +6,7 @@ import (
 	"lesson_go/mylib"
 	"lesson_go/pointer"
 	"lesson_go/statement/exercises"
+	"lesson_go/stdpackage"
 	"lesson_go/structs"
 )
 
@@ -77,7 +78,14 @@ func packages() {
 	//fmt.Println(mylibsub.private) // 小文字はエクスポートできない
 
 	mylib.Packages()
-
+}
+func stdpackage() {
+	//_stdpackage.Time()
+	//_stdpackage.Regex()
+	//_stdpackage.Sort()
+	//_stdpackage.Iota()
+	//_stdpackage.Context()
+	_stdpackage.Ioutil()
 }
 
 func main() {
@@ -86,5 +94,6 @@ func main() {
 	//pointer()
 	//structs()
 	//goroutine()
-	packages()
+	//packages()
+	stdpackage()
 }
