@@ -9,6 +9,7 @@ import (
 	"lesson_go/statement/exercises"
 	"lesson_go/stdpackage"
 	"lesson_go/structs"
+	"lesson_go/thirdparty"
 )
 
 func definition() {
@@ -95,6 +96,13 @@ func network() {
 	_network.Hmac()
 }
 
+func thirdPartyPackages() {
+	//_thirdparty.Semaphore()
+	//_thirdparty.Ini()
+	//_thirdparty.Talib()
+	_thirdparty.Bitcoin()
+}
+
 func main() {
 	//definition()
 	//statement()
@@ -103,5 +111,6 @@ func main() {
 	//goroutine()
 	//packages()
 	//stdpackage()
-	network()
+	//network()
+	thirdPartyPackages()
 }
