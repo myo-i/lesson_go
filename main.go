@@ -99,7 +99,8 @@ func network() {
 func thirdPartyPackages() {
 	//_thirdparty.Semaphore()
 	//_thirdparty.Ini()
-	_thirdparty.Talib()
+	//_thirdparty.Talib()
+	_thirdparty.Bitcoin()
 }
 
 func main() {
