@@ -91,7 +91,8 @@ func stdpackage() {
 
 func network() {
 	//_network.Http()
-	_network.JsonUnmarshalMarshal()
+	//_network.JsonUnmarshalMarshal()
+	_network.Hmac()
 }
 
 func main() {
