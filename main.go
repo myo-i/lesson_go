@@ -97,7 +97,8 @@ func network() {
 }
 
 func thirdPartyPackages() {
-	_thirdparty.Semaphore()
+	//_thirdparty.Semaphore()
+	_thirdparty.Ini()
 }
 
 func main() {
