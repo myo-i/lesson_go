@@ -11,5 +11,6 @@ require (
 require (
 	github.com/go-ini/ini v1.67.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/mattn/go-sqlite3 v1.14.16 // indirect
 	github.com/stretchr/testify v1.8.1 // indirect
 )
