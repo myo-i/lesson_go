@@ -1,6 +1,7 @@
 package main
 
 import (
+	app2 "lesson_go/app"
 	database2 "lesson_go/database"
 	"lesson_go/definition/var_parameter"
 	"lesson_go/goroutine"
@@ -108,6 +109,10 @@ func database() {
 	database2.Database()
 }
 
+func app() {
+	app2.Ioutil()
+}
+
 func main() {
 	//definition()
 	//statement()
@@ -118,5 +123,6 @@ func main() {
 	//stdpackage()
 	//network()
 	//thirdPartyPackages()
-	database()
+	//database()
+	app()
 }
