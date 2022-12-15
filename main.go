@@ -1,6 +1,7 @@
 package main
 
 import (
+	database2 "lesson_go/database"
 	"lesson_go/definition/var_parameter"
 	"lesson_go/goroutine"
 	"lesson_go/mylib"
@@ -103,6 +104,10 @@ func thirdPartyPackages() {
 	_thirdparty.Bitcoin()
 }
 
+func database() {
+	database2.Database()
+}
+
 func main() {
 	//definition()
 	//statement()
@@ -112,5 +117,6 @@ func main() {
 	//packages()
 	//stdpackage()
 	//network()
-	thirdPartyPackages()
+	//thirdPartyPackages()
+	database()
 }
