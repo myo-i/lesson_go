@@ -17,3 +17,6 @@ gofmt -w [対象のファイル名] でフォーマットを適用
 
 ## パッケージの検索
 https://pkg.go.dev/
+
+## Go Webアプリ入門
+https://go.dev/doc/articles/wiki/
