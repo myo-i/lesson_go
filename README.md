@@ -20,3 +20,6 @@ https://pkg.go.dev/
 
 ## Go Webアプリ入門
 https://go.dev/doc/articles/wiki/
+
+## 様々な関数の使い方
+https://www.wakuwakubank.com/posts/778-go-func/
