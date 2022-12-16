@@ -3,6 +3,7 @@ package main
 import (
 	app2 "lesson_go/app"
 	database2 "lesson_go/database"
+	_func "lesson_go/definition/func"
 	"lesson_go/definition/var_parameter"
 	"lesson_go/goroutine"
 	"lesson_go/mylib"
@@ -27,7 +28,7 @@ func definition() {
 	//slice_make_cap.MakeCap()
 	//_map.Map()
 	//_byte.Byte()
-	//_func.Func()
+	_func.Func()
 	//closure.Closure()
 	var_parameter.Parameter()
 }
@@ -114,7 +115,7 @@ func app() {
 }
 
 func main() {
-	//definition()
+	definition()
 	//statement()
 	//pointer()
 	//structs()
@@ -124,5 +125,5 @@ func main() {
 	//network()
 	//thirdPartyPackages()
 	//database()
-	app()
+	//app()
 }

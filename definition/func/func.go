@@ -2,6 +2,37 @@ package _func
 
 import "fmt"
 
+type Test func(string2 string, int2 int)
+
+func ttt(s string, n int) {
+	var result string
+	for i := 0; i < n; i++ {
+		result += s
+	}
+	fmt.Println(result)
+
+}
+
+func test(fn func(string2 string, int2 int)) Test {
+	return func(s string, i int) {
+		if i < 3 {
+			s += " world"
+			i += 3
+			fn(s, i)
+		}
+		fn("Hello World", 6)
+	}
+}
+
+func AltimateTest(s string, n int, test func(string2 string, int2 int)) string {
+	var result string
+	for i := 0; i < n; i++ {
+		result += s
+	}
+	test("hello", 2)
+	return result
+}
+
 // golangは返り値を２つ設定できる
 func add(x, y int) (int, int) {
 	return x + y, x - y
@@ -33,4 +64,7 @@ func Func() {
 	func(s string) {
 		fmt.Println("inner func", s)
 	}("World")
+
+	// type Hoge funcの実験
+	AltimateTest("world", 1, test(ttt))
 }
