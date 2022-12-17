@@ -23,3 +23,7 @@ https://go.dev/doc/articles/wiki/
 
 ## 様々な関数の使い方
 https://www.wakuwakubank.com/posts/778-go-func/
+
+## ファイルの読み書き
+Openは書き込み権限なしで読み込み、Createは書き込み権限ありで読み込み（すでに存在するファイルを指定した場合は空にする）  
+https://zenn.dev/hsaki/books/golang-io-package/viewer/file
