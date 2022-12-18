@@ -8,6 +8,7 @@ import (
 	"lesson_go/goroutine"
 	"lesson_go/mylib"
 	_network "lesson_go/network"
+	play2 "lesson_go/play"
 	"lesson_go/pointer"
 	"lesson_go/statement/exercises"
 	"lesson_go/stdpackage"
@@ -114,8 +115,12 @@ func app() {
 	app2.Ioutil()
 }
 
+func play() {
+	play2.Play()
+}
+
 func main() {
-	definition()
+	//definition()
 	//statement()
 	//pointer()
 	//structs()
@@ -126,4 +131,5 @@ func main() {
 	//thirdPartyPackages()
 	//database()
 	//app()
+	play()
 }
