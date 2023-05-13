@@ -5,15 +5,17 @@ import (
 	database2 "lesson_go/database"
 	_func "lesson_go/definition/func"
 	"lesson_go/definition/var_parameter"
-	"lesson_go/goroutine"
+	"lesson_go/di"
+	_goroutine "lesson_go/goroutine"
 	"lesson_go/mylib"
 	_network "lesson_go/network"
 	play2 "lesson_go/play"
-	"lesson_go/pointer"
+	_pointer "lesson_go/pointer"
 	"lesson_go/statement/exercises"
-	"lesson_go/stdpackage"
-	"lesson_go/structs"
-	"lesson_go/thirdparty"
+	_stdpackage "lesson_go/stdpackage"
+	_structs "lesson_go/structs"
+	_thirdparty "lesson_go/thirdparty"
+	"os"
 )
 
 func definition() {
@@ -63,7 +65,7 @@ func structs() {
 }
 
 func goroutine() {
-	//_goroutine.Goroutine()
+	_goroutine.Goroutine()
 	//_goroutine.Channel()
 	//_goroutine.Buffer()
 	//_goroutine.ChRangeClose()
@@ -72,7 +74,7 @@ func goroutine() {
 	//_goroutine.ChannelSelect()
 	//_goroutine.DefaultBreak()
 	//_goroutine.SyncMutex()
-	_goroutine.Exercise()
+	// _goroutine.Exercise()
 }
 
 func packages() {
@@ -119,17 +121,24 @@ func play() {
 	play2.Play()
 }
 
+func dependencyInjection() {
+	di.Greet(os.Stdout, "Bob")
+}
+
 func main() {
 	//definition()
 	//statement()
 	//pointer()
 	//structs()
-	//goroutine()
+	// goroutine()
 	//packages()
 	//stdpackage()
 	//network()
 	//thirdPartyPackages()
 	//database()
 	//app()
-	play()
+	// play()
+	dependencyInjection()
+
+	// fmt.Println("hello")
 }
